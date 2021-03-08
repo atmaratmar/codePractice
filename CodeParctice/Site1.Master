@@ -18,10 +18,33 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                     <img src="imgs/books.png" width="30" height="30" />
+                    My E-Library
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collaps" data-toget="#navbarSupportedContent" aria-expanded="false"
+                     aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+               
+            </nav>
+        </div>
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
+        <footer>
+            <p>
+                this the footer
+            </p>
+        </footer>
     </form>
 </body>
 </html>
