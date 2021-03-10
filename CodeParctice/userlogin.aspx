@@ -30,6 +30,7 @@
                      <div class="col">
                          <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="member_Id" runat="server" placeholder="Member ID"></asp:TextBox>
+                               <br />
                         </div>
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="member_Password" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
@@ -38,6 +39,7 @@
 
                         <div class="d-grid gap-2">
                            <asp:Button class="btn btn-success btn-block btn-lg" ID="Btn_member_login" runat="server" Text="Login" />
+                              <br />
                         </div>
                         <div class="d-grid gap-2">
                            <a href="usersignup.aspx"><input class="btn btn-info btn-block btn-lg" id="Btn_member_signUp" type="button" value="Sign Up" style="width:100%" /></a>
