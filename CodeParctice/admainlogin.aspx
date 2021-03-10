@@ -27,16 +27,16 @@
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col">
-                        <label>Admin ID</label>
+                     <div class="col">             
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Admin ID"></asp:TextBox>
+                            <br />
                         </div>
-                        <label>Password</label>
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                             <br />
                         </div>
-                        <div class="form-group">
+                        <div class="d-grid gap-2">
                            <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" />
                         </div>
                      </div>

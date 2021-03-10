@@ -28,13 +28,12 @@
                   </div>
                   <div class="row">
                      <div class="col">
-                        <label>Member ID</label>
-                        <div class="form-group">
+                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="member_Id" runat="server" placeholder="Member ID"></asp:TextBox>
                         </div>
-                        <label>Password</label>
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="member_Password" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                            <br />
                         </div>
 
                         <div class="d-grid gap-2">
@@ -42,6 +41,7 @@
                         </div>
                         <div class="d-grid gap-2">
                            <a href="usersignup.aspx"><input class="btn btn-info btn-block btn-lg" id="Btn_member_signUp" type="button" value="Sign Up" style="width:100%" /></a>
+                             <br />
                         </div>
                      <%--   <div class="form-group">
                            <asp:Button class="btn btn-success btn-block btn-lg" ID="Btn_member_login" runat="server" Text="Login" />
